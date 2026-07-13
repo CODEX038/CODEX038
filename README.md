@@ -18,9 +18,9 @@
 I'm a Computer Engineering student who **turns ideas into shipped, working products** — full-stack apps with real auth, databases, AI, caching, and monitoring, not toy projects.
 
 - 🚀 I build **end-to-end**: from database schema and API design to polished, responsive front-ends.
-- 🧠 Deep interest in **applied AI** (LLMs, RAG), **full-stack web**, **geospatial data**, and **blockchain**.
-- 🛰️ Currently building an **AI-driven satellite crop-monitoring &amp; irrigation advisory system** for **ISRO BAH 2026** with team **BuildByte**.
-- ⚡ I learn by building — hackathons, side projects, and shipping real things people can use.
+- 🧠 Deep interest in **applied AI** (LLMs, RAG, computer vision), **full-stack web**, and **blockchain**.
+- 🚗 Currently researching **BharatDrive-x-Twin** — an AI driver-safety co-pilot using computer vision and digital-twin simulation for Indian roads.
+- 🌱 Leveling up in geospatial &amp; applied AI and gearing up for **ISRO BAH 2026** with team **BuildByte**.
 - 🤝 Open to **internship opportunities** — let's connect.
 
 ---
@@ -38,7 +38,6 @@ I'm a Computer Engineering student who **turns ideas into shipped, working produ
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
 
 **Backend &amp; Data**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -47,8 +46,9 @@ I'm a Computer Engineering student who **turns ideas into shipped, working produ
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-**AI &amp; Tools**
+**AI / ML &amp; Tools**
 ![Groq](https://img.shields.io/badge/Groq_LLM-F55036?style=flat-square&logo=openai&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
@@ -62,27 +62,41 @@ I'm a Computer Engineering student who **turns ideas into shipped, working produ
   <tr>
     <td width="50%" valign="top">
       <h4>🎯 InternArsenal — AI Internship Platform</h4>
-      <p>A full production-grade platform: AI resume/cover-letter/cold-email generation (Groq LLM + RAG), internship aggregation, match scoring, and an application tracker. Built with secure server-side auth, Zod validation, rate limiting, and Redis caching.</p>
+      <p>A full production-grade platform: AI resume/cover-letter/cold-email generation (Groq LLM + RAG), internship aggregation, match scoring, and an application tracker. Secure server-side auth, Zod validation, rate limiting, and Redis caching.</p>
       <p><b>Next.js 16 · React 19 · TypeScript · Supabase · Prisma · Redis · Groq</b></p>
       <a href="https://github.com/CODEX038/INTERNARSENAL">View Repo →</a>
     </td>
     <td width="50%" valign="top">
-      <h4>🛰️ Irrigation Priority Engine</h4>
-      <p>AI-driven, satellite-based crop-monitoring and irrigation advisory system with an interactive Leaflet.js dashboard and crop-zone overlays. Built for the <b>ISRO BAH 2026</b> hackathon.</p>
-      <p><b>Python · JavaScript · Leaflet.js · Geospatial</b></p>
-      <a href="https://github.com/CODEX038/irrigation-priority-engine">View Repo →</a>
+      <h4>🚗 BharatDrive-x-Twin — AI Safety Co-Pilot</h4>
+      <p>Personalized driver-readiness scoring, Indian road-hazard prediction, and a digital twin with counterfactual simulation. A computer-vision research prototype focused on road safety.</p>
+      <p><b>Python · Computer Vision · Digital Twin · Jupyter</b></p>
+      <a href="https://github.com/CODEX038/BharatDrive-x-Twin">View Repo →</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>⛓️ FundChain — Web3 Crowdfunding</h4>
-      <p>A blockchain-based crowdfunding platform using smart contracts for transparent, trustless fundraising, with a Web3 front-end.</p>
-      <p><b>Solidity · Ethers.js · JavaScript</b></p>
-      <a href="https://github.com/CODEX038/fundchain">View Repo →</a>
+      <h4>🩺 MEDIBOT — AI Medical Assistant</h4>
+      <p>An AI-powered medical assistant chatbot that answers health questions and provides preliminary, accessible guidance to users.</p>
+      <p><b>Python · NLP · LLM</b></p>
+      <a href="https://github.com/CODEX038/MEDIBOT">View Repo →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌾 Kisan-Mitra — AI for Farmers</h4>
+      <p>A "farmer's friend" assistant that brings crop and agriculture guidance to farmers through a simple, accessible interface.</p>
+      <p><b>Python · Applied AI</b></p>
+      <a href="https://github.com/CODEX038/kisan-mitra">View Repo →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⛓️ FundChain V2 — Web3 Crowdfunding</h4>
+      <p>A smart-contract crowdfunding platform for transparent, trustless fundraising, with a Web3 front-end.</p>
+      <p><b>Solidity · Ethers.js · Web3</b></p>
+      <a href="https://github.com/CODEX038/FUNDCHAIN-V2">View Repo →</a>
     </td>
     <td width="50%" valign="top">
       <h4>🔭 More on my profile</h4>
-      <p>I ship regularly — explore the rest of my repositories for hackathon builds, experiments, and full-stack projects across AI, web, and blockchain.</p>
+      <p>I ship across AI, full-stack web, and blockchain. Explore the rest of my repositories for hackathon builds and experiments.</p>
       <p><b>Always building something new.</b></p>
       <a href="https://github.com/CODEX038?tab=repositories">Browse all repos →</a>
     </td>
