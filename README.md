@@ -1,131 +1,155 @@
-<h1 align="center">Shreepad Salvi — CODEX 👋</h1>
+<div align="center">
 
-<p align="center">
-  <b>Full-Stack &amp; Applied-AI Developer · I ship production-grade software, not just demos.</b><br>
-  Computer Engineering @ Bharat College of Engineering, Mumbai · Team <b>BuildByte</b>
-</p>
+<img src="assets/header.gif" width="100%" alt="Shreepad Salvi — computer vision and agentic AI" />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shreepad-salvi-ba354440a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:shreepadsalvi@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=CODEX038&style=for-the-badge&color=0A66C2" alt="Profile views"/>
-</p>
+# Shreepad Salvi
 
----
+**Applied AI · Computer Vision · Multi-Agent Systems · Geospatial ML**
 
-### 👨‍💻 About Me
+Computer Engineering @ Bharat College of Engineering, Mumbai · 2023–2027
 
-I'm a Computer Engineering student who **turns ideas into shipped, working products** — full-stack apps with real auth, databases, AI, caching, and monitoring, not toy projects.
+<a href="https://www.linkedin.com/in/shreepadsalvi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:shreepadsalvi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://cfp-04.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
 
-- 🚀 I build **end-to-end**: from database schema and API design to polished, responsive front-ends.
-- 🧠 Deep interest in **applied AI** (LLMs, RAG, computer vision), **full-stack web**, and **blockchain**.
-- 🚗 Currently researching **BharatDrive-x-Twin** — an AI driver-safety co-pilot using computer vision and digital-twin simulation for Indian roads.
-- 🌱 Leveling up in geospatial &amp; applied AI and gearing up for **ISRO BAH 2026** with team **BuildByte**.
-- 🤝 Open to **internship opportunities** — let's connect.
+</div>
 
 ---
 
-### 🛠️ Tech Stack
+## What I optimise for
 
-**Languages**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Backend &amp; Data**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**AI / ML &amp; Tools**
-![Groq](https://img.shields.io/badge/Groq_LLM-F55036?style=flat-square&logo=openai&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+I build AI systems for messy, low-connectivity, high-variance conditions — specifically Indian ones. Every project here ships with an evaluation log that states where it fails. I'd rather publish an honest mAP number with its caveats than a demo video that only works on the clip I recorded it with.
 
 ---
 
-### 🌟 Featured Projects
+## Measured results
+
+Numbers from held-out evaluation, not training runs. Full per-class tables and caveats are in each repo's evaluation log.
+
+| Project | What was measured | Result |
+|---|---|---|
+| **BharatDrive-X Twin** | YOLOv8n fine-tuned on IDD + RDD2022 India, 10 hazard classes, 1,648 held-out images, no leakage | **mAP50 0.442** · P 0.672 · R 0.401 · 24.6 ms/image (CPU) |
+| **BharatDrive-X Twin** | Fused driver + road perception loop | **25 FPS**, 12 ms loop latency, CPU only — no GPU, no cloud, no API keys |
+| **BharatDrive-X Twin** | Alert calibration pass | Max false-critical risk **0.93 → 0.65** |
+| **MediBot** | Adversarial suite: poisoned KB, injected docs, fake citations, cross-patient probing | **80 tests + hard eval gates**, passing in CI |
+| **FundChain** | Deployed end to end | Live on **Ethereum Sepolia** · [cfp-04.vercel.app](https://cfp-04.vercel.app) |
+
+---
+
+## Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎯 InternArsenal — AI Internship Platform</h4>
-      <p>A full production-grade platform: AI resume/cover-letter/cold-email generation (Groq LLM + RAG), internship aggregation, match scoring, and an application tracker. Secure server-side auth, Zod validation, rate limiting, and Redis caching.</p>
-      <p><b>Next.js 16 · React 19 · TypeScript · Supabase · Prisma · Redis · Groq</b></p>
-      <a href="https://github.com/CODEX038/INTERNARSENAL">View Repo →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🚗 BharatDrive-x-Twin — AI Safety Co-Pilot</h4>
-      <p>Personalized driver-readiness scoring, Indian road-hazard prediction, and a digital twin with counterfactual simulation. A computer-vision research prototype focused on road safety.</p>
-      <p><b>Python · Computer Vision · Digital Twin · Jupyter</b></p>
-      <a href="https://github.com/CODEX038/BharatDrive-x-Twin">View Repo →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🩺 MEDIBOT — AI Medical Assistant</h4>
-      <p>An AI-powered medical assistant chatbot that answers health questions and provides preliminary, accessible guidance to users.</p>
-      <p><b>Python · NLP · LLM</b></p>
-      <a href="https://github.com/CODEX038/MEDIBOT">View Repo →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🌾 Kisan-Mitra — AI for Farmers</h4>
-      <p>A "farmer's friend" assistant that brings crop and agriculture guidance to farmers through a simple, accessible interface.</p>
-      <p><b>Python · Applied AI</b></p>
-      <a href="https://github.com/CODEX038/kisan-mitra">View Repo →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>⛓️ FundChain V2 — Web3 Crowdfunding</h4>
-      <p>A smart-contract crowdfunding platform for transparent, trustless fundraising, with a Web3 front-end.</p>
-      <p><b>Solidity · Ethers.js · Web3</b></p>
-      <a href="https://github.com/CODEX038/FUNDCHAIN-V2">View Repo →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔭 More on my profile</h4>
-      <p>I ship across AI, full-stack web, and blockchain. Explore the rest of my repositories for hackathon builds and experiments.</p>
-      <p><b>Always building something new.</b></p>
-      <a href="https://github.com/CODEX038?tab=repositories">Browse all repos →</a>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🚗 [BharatDrive-X Twin](https://github.com/CODEX038/BharatDrive-x-Twin)
+Offline-first AI safety co-pilot. Fuses driver-facing and road-facing perception into one explainable Journey Safety Score — because a drowsy driver on an empty road and an alert driver in dense traffic are not the same risk.
+
+`Python` `PyTorch` `YOLOv8` `OpenCV` `MediaPipe` `SQLite`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌾 [Kisan Mitra](https://github.com/CODEX038/kisan-mitra)
+Multilingual multi-agent crop advisor. A farmer asks in Hindi or Marathi whether to irrigate; specialist agents check satellite NDVI, soil moisture and weather, and answer in their own language.
+
+`Google ADK` `Gemini` `MCP` `Docker` `Cloud Run`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🩺 [MediBot](https://github.com/CODEX038/MEDIBOT)
+Source-grounded healthcare RAG. The model may only cite retrieved, approved sources, must abstain when confidence is low, and is tested against an adversarial suite.
+
+`FastAPI` `PostgreSQL` `RAG` `Next.js` `Docker` `CI`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 [InternArsenal](https://github.com/CODEX038/INTERNARSENAL)
+AI internship platform for Indian students — aggregation, transparent match scoring, ATS-optimised resume generation, and a full application pipeline.
+
+`Next.js 16` `React 19` `TypeScript` `Prisma` `Supabase` `Groq` `Redis`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⛓️ [FundChain](https://github.com/CODEX038/FUNDCHAIN-V2)
+Crowdfunding that replaces trust with proof. Every donation is an on-chain transaction; a contract event listener keeps the database honest to the chain. **[Live →](https://cfp-04.vercel.app)**
+
+`Solidity` `Foundry` `ethers.js` `React` `MongoDB` `Stripe`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔭 Everything else
+Hackathon builds, experiments, and coursework that outgrew coursework.
+
+**[Browse all repositories →](https://github.com/CODEX038?tab=repositories)**
+
+</td>
+</tr>
 </table>
 
 ---
 
-### 📊 GitHub Stats
+<details>
+<summary><b>Engineering decisions worth reading about</b></summary>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=CODEX038&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CODEX038&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
-</p>
+<br>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CODEX038&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-</p>
+**Personalised fatigue thresholds.** Most drowsiness detectors use one closed-eye constant for every human. BharatDrive-X learns the threshold as ~65% of the driver's own median EAR, with 3×MAD outlier rejection — so it detects deviation from *you*, not from a textbook.
+
+**Knowing what it doesn't know.** A dedicated reliability engine distinguishes *unknown* from *closed*. An invisible eye is never reported as a shut one; a missing face is investigated, never assumed recovered.
+
+**Fusion that can't be averaged away.** A critical driver state caps the Journey Safety Score, so a calm road can never dilute a drowsy driver into a safe-looking number.
+
+**Abstention as a feature.** MediBot returns a refusal — not a guess — on empty, withdrawn, off-topic or low-confidence queries. Emergency detection runs on deterministic rules, independent of the LLM.
+
+**Guardrails before capability.** Kisan Mitra filters prompt injection on input and attaches safety disclaimers on output, before any agent is allowed to reason.
+
+</details>
+
+<details>
+<summary><b>Stack</b></summary>
+
+<br>
+
+**AI / ML** — PyTorch · YOLOv8 · OpenCV · MediaPipe · scikit-learn · RAG · Google ADK · MCP · Gemini · Groq
+
+**Languages** — Python · TypeScript · JavaScript · Solidity · SQL
+
+**Backend** — FastAPI · Node.js · Express · Prisma · PostgreSQL · MongoDB · Redis · Supabase
+
+**Frontend** — Next.js · React · Tailwind CSS
+
+**Infra** — Docker · GitHub Actions · Vercel · GCP Cloud Run · Foundry · pytest
+
+</details>
 
 ---
 
-### 🐍 Contribution Graph
+## Stats
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CODEX038/CODEX038/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation"/>
-</p>
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=CODEX038&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=5FD3E8&title_color=5FD3E8&cache_seconds=7200" alt="GitHub stats for CODEX038" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CODEX038&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=5FD3E8&langs_count=8&cache_seconds=7200" alt="Most used languages" />
+
+<img src="https://streak-stats.demolab.com?user=CODEX038&theme=github-dark-blue&hide_border=true&background=0D1117&ring=5FD3E8&fire=5FD3E8&currStreakLabel=5FD3E8&cache_seconds=7200" alt="Contribution streak" />
+
+</div>
 
 ---
 
-<p align="center">
-  <b>Building things that ship. Let's connect. 🚀</b>
-</p>
+<div align="center">
+
+**Open to AI/ML, computer vision and data internships** — remote, hybrid, or Mumbai/Pune.
+
+Learning in public, one repo at a time.
+
+</div>
