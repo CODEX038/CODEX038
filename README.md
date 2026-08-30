@@ -137,10 +137,9 @@ Hackathon builds, experiments, and coursework that outgrew coursework.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=CODEX038&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=5FD3E8&title_color=5FD3E8&cache_seconds=7200" alt="GitHub stats for CODEX038" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CODEX038&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=5FD3E8&langs_count=8&cache_seconds=7200" alt="Most used languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CODEX038&theme=github_dark" alt="Profile summary for CODEX038" />
 
-<img src="https://streak-stats.demolab.com?user=CODEX038&theme=github-dark-blue&hide_border=true&background=0D1117&ring=5FD3E8&fire=5FD3E8&currStreakLabel=5FD3E8&cache_seconds=7200" alt="Contribution streak" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=CODEX038&theme=github_dark" alt="Top languages by repository" />
 
 </div>
 
